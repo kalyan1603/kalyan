@@ -30,6 +30,9 @@ class Neuron(Module):
     def __str__(self) :
         return f'Module input are {Module} .'
 
+    def test_function(self) :
+        return "test"
+
 class Layer(Module):
 
     def __init__(self, nin, nout, **kwargs):
