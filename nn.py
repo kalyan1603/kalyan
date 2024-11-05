@@ -10,6 +10,9 @@ class Module:
     def parameters(self):
         return []
 
+    def parameters_clone (self) :
+        return {}
+
 class Neuron(Module):
 
     def __init__(self, nin, nonlin=True):
